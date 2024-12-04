@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.A.R.V.I.S Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Tela de Registro -->
+    <div id="signup-container" style="display: block;">
+        <h1>Registro</h1>
+        <input type="text" id="register-username" placeholder="Nome de usuário">
+        <input type="password" id="register-password" placeholder="Senha">
+        <button id="register-button">Criar Conta</button>
+    </div>
+
+    <!-- Tela de Login -->
+    <div id="login-container" style="display: none;">
+        <h1>Login</h1>
+        <input type="text" id="login-username" placeholder="Nome de usuário">
+        <input type="password" id="login-password" placeholder="Senha">
+        <button id="login-button">Entrar</button>
+    </div>
+
+    <!-- Tela de Chat -->
+    <div id="chat-container" style="display: none;">
+        <h1>Chat - J.A.R.V.I.S</h1>
+        <div id="chat-box" class="chat-box"></div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+            <button id="send-button">Enviar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
